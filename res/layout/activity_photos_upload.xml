@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:textColor="#ffffffff" android:id="@id/photosupload_choose" android:background="@drawable/round_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="Choose File" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.498" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <Button android:textColor="#ffffffff" android:id="@id/photosupload_upload" android:background="@drawable/round_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="36.0dip" android:text="Upload" app:layout_constraintBottom_toBottomOf="parent" />
+    <ImageView android:id="@id/photosupload_imageview" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/photosupload_upload" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/photosupload_choose" />
+</androidx.constraintlayout.widget.ConstraintLayout>
